@@ -1,0 +1,104 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "findingMissingNumber",
+      "request": "launch",
+      "mainClass": "javaDSA.findingMissingNumber",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "ZeroAddinAtEnd",
+      "request": "launch",
+      "mainClass": "javaDSA.ZeroAddinAtEnd",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "oddOrEven",
+      "request": "launch",
+      "mainClass": "javaDSA.oddOrEven",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "slidingWindow",
+      "request": "launch",
+      "mainClass": "slidingWindow",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "secondLargest",
+      "request": "launch",
+      "mainClass": "secondLargest",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "factorialOFLetter",
+      "request": "launch",
+      "mainClass": "factorialOFLetter",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "index",
+      "request": "launch",
+      "mainClass": "index",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "name": "(gdb) Bash on Windows Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": [
+          "-c"
+        ],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Nagesha R/OneDrive/Desktop/DSA",
+      "program": "c:/Users/Nagesha R/OneDrive/Desktop/DSA/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

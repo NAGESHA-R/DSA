@@ -3,6 +3,132 @@
   "configurations": [
     {
       "type": "java",
+      "name": "listAPP",
+      "request": "launch",
+      "mainClass": "linkedList.listAPP",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "prime",
+      "request": "launch",
+      "mainClass": "javaDSA.prime",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "sample",
+      "request": "launch",
+      "mainClass": "javaDSA.sample",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "binary",
+      "request": "launch",
+      "mainClass": "javaDSA.binary",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "samples",
+      "request": "launch",
+      "mainClass": "javaDSA.samples",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "charTonumber",
+      "request": "launch",
+      "mainClass": "javaDSA.charTonumber",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "fibonaci_series",
+      "request": "launch",
+      "mainClass": "javaDSA.fibonaci_series",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "primeNumbers",
+      "request": "launch",
+      "mainClass": "javaDSA.primeNumbers",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "javaDSA.bubbleSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "ZeroAddinAtEnd",
+      "request": "launch",
+      "mainClass": "ZeroAddinAtEnd",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "sortingWithoutBuilt",
+      "request": "launch",
+      "mainClass": "sortingWithoutBuilt",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "bubbleSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "square",
+      "request": "launch",
+      "mainClass": "square",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "indexfinding",
+      "request": "launch",
+      "mainClass": "indexfinding",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "swapping",
+      "request": "launch",
+      "mainClass": "javaDSA.swapping",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "LCM",
+      "request": "launch",
+      "mainClass": "javaDSA.LCM",
+      "projectName": "DSA_3ec5a3e3"
+    },
+    {
+      "type": "java",
+      "name": "exponential",
+      "request": "launch",
+      "mainClass": "javaDSA.exponential",
+      "projectName": "DSA_3ec5a3e3"
+    },
+    {
+      "type": "java",
+      "name": "oddOrEven",
+      "request": "launch",
+      "mainClass": "javaDSA.oddOrEven",
+      "projectName": "DSA_3ec5a3e3"
+    },
+    {
+      "type": "java",
       "name": "findingMissingNumber",
       "request": "launch",
       "mainClass": "javaDSA.findingMissingNumber",

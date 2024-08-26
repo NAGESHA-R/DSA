@@ -18,6 +18,7 @@ public class indexfinding{
 				System.out.println("index:"+i);
 			}
 		}
+		sc.close();
 	}
 
 }

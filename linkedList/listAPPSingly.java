@@ -117,7 +117,7 @@ class Linkedlist {
     }
 }
 
-public class listAPP {
+public class listAPPSingly {
     public static void main(String[] args) {
         Linkedlist node = new Linkedlist();
         Scanner sc = new Scanner(System.in);

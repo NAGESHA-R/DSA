@@ -20,5 +20,6 @@ public class primeNumbers {
             }
             
         }
+        sc.close();
     }
 }

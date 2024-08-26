@@ -53,7 +53,7 @@ class Linkedlist {
             System.out.println("empty list");
         }
         Node curr = head;
-        while (curr!= null) {
+        while (curr != null) {
             System.out.print(curr.data + "\t");
             curr = curr.next;
         }
@@ -69,26 +69,49 @@ class Linkedlist {
         }
         return true;
     }
-    public boolean addAfterkey(int data,int key){
-        Node newNode=new Node(data);
-        
-        if(head==null){
+
+    public boolean addAfterkey(int data, int key) {
+        Node newNode = new Node(data);
+
+        if (head == null) {
             System.out.println("Empty list");
             return false;
-        }
-        else if(head.data==key){
-            newNode.next=head.next;
-            head.next=newNode;
-        }
-        else{
-            Node curr=head;
-            while(curr!=null){
-                if(curr.data==key){
-                    newNode.next=curr.next;
-                    curr.next=newNode;
+        } else if (head.data == key) {
+            newNode.next = head.next;
+            head.next = newNode;
+        } else {
+            Node curr = head;
+            while (curr != null) {
+                if (curr.data == key) {
+                    newNode.next = curr.next;
+                    curr.next = newNode;
                 }
-                curr=curr.next;
+                curr = curr.next;
             }
+        }
+        return true;
+    }
+
+    public boolean addBeforekey(int data, int key) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            System.out.println("empty list");
+            return false;
+        }
+        if (head.data == key) {
+            newNode.next = head;
+            head = newNode;
+            return true;
+        }
+        Node curr = head;
+        while (curr.next != null) {
+            if (curr.next.data == key) {
+                newNode.next = curr.next;
+                curr.next = newNode;
+                return true;
+            }
+            curr = curr.next;
+            
         }
         return true;
     }
@@ -140,14 +163,14 @@ public class listAPP {
                         System.out.println(data + " added after " + key);
                     }
                     break;
-                // case 6:
-                //     System.out.println("enter data and key:");
-                //     data = sc.nextInt();
-                //     key = sc.nextInt();
-                //     if (node.addBeforekey(data, key)) {
-                //         System.out.println(data + " added Before " + key);
-                //     }
-                //     break;
+                case 6:
+                    System.out.println("enter data and key:");
+                    data = sc.nextInt();
+                    key = sc.nextInt();
+                    if (node.addBeforekey(data, key)) {
+                        System.out.println(data + " added Before " + key);
+                    }
+                    break;
                 case 7:
                     flag = false;
                     System.out.println("Successfully exited...");

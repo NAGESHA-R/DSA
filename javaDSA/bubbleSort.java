@@ -11,7 +11,6 @@ public class bubbleSort {
                     int temp=a[j];
                     a[j]=a[i];
                     a[i]=temp;
-                    
                 }
                 else{
                     continue;

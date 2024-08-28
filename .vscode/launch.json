@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "doublyLinkedList",
+      "request": "launch",
+      "mainClass": "linkedList.doublyLinkedList",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "linkedListCirSingly",
+      "request": "launch",
+      "mainClass": "linkedList.linkedListCirSingly",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
       "name": "listAPP",
       "request": "launch",
       "mainClass": "linkedList.listAPP",

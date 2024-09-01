@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UniqueElements",
+      "request": "launch",
+      "mainClass": "javaDSA.UniqueElements",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "repeateNumber",
+      "request": "launch",
+      "mainClass": "javaDSA.repeateNumber",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "parantheses",
+      "request": "launch",
+      "mainClass": "stack.parantheses",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "paranthesis",
+      "request": "launch",
+      "mainClass": "stack.paranthesis",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "stacks",
+      "request": "launch",
+      "mainClass": "stack.stacks",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "sampleTree",
+      "request": "launch",
+      "mainClass": "BinaryTree.sampleTree",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
       "name": "doublyLinkedList",
       "request": "launch",
       "mainClass": "linkedList.doublyLinkedList",

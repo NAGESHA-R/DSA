@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maths",
+      "request": "launch",
+      "mainClass": "javaDSA.maths",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "sorting.mergeSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "selectionSort",
+      "request": "launch",
+      "mainClass": "sorting.selectionSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "insertionSort",
+      "request": "launch",
+      "mainClass": "sorting.insertionSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "sorting.bubbleSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "lokis",
+      "request": "launch",
+      "mainClass": "javaDSA.lokis",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
       "name": "UniqueElements",
       "request": "launch",
       "mainClass": "javaDSA.UniqueElements",

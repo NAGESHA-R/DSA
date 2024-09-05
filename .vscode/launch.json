@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "quickSort",
+      "request": "launch",
+      "mainClass": "sorting.quickSort",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
       "name": "maths",
       "request": "launch",
       "mainClass": "javaDSA.maths",

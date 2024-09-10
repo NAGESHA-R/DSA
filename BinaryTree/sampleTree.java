@@ -46,16 +46,24 @@ class binaryTr{
         
     }
     public void displaying(){
-        displaying(root);
+        displaying(root,0);
     }
-    public void displaying(Node node){
+    public void displaying(Node node,int l){
         if(node==null){
             return;
         }
-        System.out.println(node.value);
-        displaying(node.left);
-        System.out.print("\t");
-        displaying(node.right);
+        displaying(node.right,l+1);
+        if(l!=0){
+            for(int i=0;i<l-1;i++){
+                System.out.print("|\t\t");
+            }
+            System.out.println("|--------->"+node.value);
+        }
+        else{
+            System.out.println(node.value);
+        }
+        displaying(node.left,l+1);
+        
     }
 }
 public class sampleTree {
@@ -67,3 +75,4 @@ public class sampleTree {
     }
     
 }
+

@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subArray",
+      "request": "launch",
+      "mainClass": "javaDSA.subArray",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "BST",
+      "request": "launch",
+      "mainClass": "BinaryTree.BST",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "bsearch",
+      "request": "launch",
+      "mainClass": "BinaryTree.bsearch",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
+      "name": "powerOfHanoi",
+      "request": "launch",
+      "mainClass": "sorting.powerOfHanoi",
+      "projectName": "DSA_bcf76c55"
+    },
+    {
+      "type": "java",
       "name": "quickSort",
       "request": "launch",
       "mainClass": "sorting.quickSort",
